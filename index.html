@@ -75,15 +75,6 @@
   .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
   .btn svg { width: 16px; height: 16px; }
 
-  .stats {
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
-    background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
-    margin-bottom: 24px;
-  }
-  .stat { background: var(--surface); padding: 20px; }
-  .stat b { display: block; font-size: 26px; font-weight: 600; letter-spacing: -0.02em; }
-  .stat span { font-size: 13px; color: var(--muted); }
-
   section { padding: 56px 0; border-top: 1px solid var(--line); }
   h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); margin: 0 0 28px; }
 
@@ -139,7 +130,6 @@
   @media (max-width: 720px) {
     nav ul { display: none; }
     header.hero { padding: 56px 0 40px; }
-    .stats { grid-template-columns: repeat(2, 1fr); }
     .job, .skills { grid-template-columns: 1fr; gap: 4px; }
     .skills dd { margin-bottom: 10px; }
     .projects, .two { grid-template-columns: 1fr; }
@@ -191,15 +181,6 @@
       </a>
     </div>
   </header>
-
-  <div class="wrap">
-    <div class="stats">
-      <div class="stat"><b>16 yrs</b><span>designing and building enterprise solutions</span></div>
-      <div class="stat"><b>4 yrs</b><span>as a Solution Designer for Westpac and Optus</span></div>
-      <div class="stat"><b>3</b><span>countries: Australia, Singapore, India</span></div>
-      <div class="stat"><b>1st</b><span>rank in B.Tech IT class</span></div>
-    </div>
-  </div>
 
   <section id="experience">
     <div class="wrap">
